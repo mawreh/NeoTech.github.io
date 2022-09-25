@@ -4,3 +4,16 @@ h1 {
     top:100px; 
     text-align: center;
 }
+
+html { 
+  scroll-snap-type: y mandatory;
+  scroll-snap-points-y: repeat(100vh);
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  border-bottom: 1px solid rgb(0, 0, 0);
+  padding: 1rem;
+  height: 100vh;
+  scroll-snap-align: start;
+}
