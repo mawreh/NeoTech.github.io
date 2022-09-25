@@ -5,6 +5,18 @@ h1 {
     text-align: center;
 }
 
+.gif {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.neo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 html { 
   scroll-snap-type: y mandatory;
   scroll-snap-points-y: repeat(100vh);
@@ -18,8 +30,3 @@ section {
   scroll-snap-align: start;
 }
 
-.gif {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
