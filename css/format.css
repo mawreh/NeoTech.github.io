@@ -17,3 +17,9 @@ section {
   height: 100vh;
   scroll-snap-align: start;
 }
+
+.gif {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
