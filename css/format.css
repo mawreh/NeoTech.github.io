@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+html { 
+  scroll-snap-type: y mandatory;
+  scroll-snap-points-y: repeat(100vh);
+  scroll-snap-type: y mandatory;
+}
+
 h1 {
     color:white;
     position : relative;
@@ -13,24 +19,20 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  padding: 1rem;
+  height: 100vh;
+  scroll-snap-align: start;
 }
 
 .neo {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-html { 
-  scroll-snap-type: y mandatory;
-  scroll-snap-points-y: repeat(100vh);
-  scroll-snap-type: y mandatory;
-}
-
-section {
   border-bottom: 1px solid rgb(0, 0, 0);
   padding: 1rem;
   height: 100vh;
   scroll-snap-align: start;
 }
+
 
