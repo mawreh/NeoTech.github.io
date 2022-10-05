@@ -1,72 +1,39 @@
-/*
-body {
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    background-color: rgb(0, 0, 0);
-}
-
-.container {
-    width: 100%;
-    height: 100%;
-    background-color: rgb(0, 0, 0);
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-}
-.Neotech {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-    scroll-snap-align: start;
-    background-color: black;
-
-}
-
-.gif {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-    scroll-snap-align: start;
-    background-color: rgb(0, 0, 0);
-}
-*/
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-.intro {
-    height:100vh;
-}
+  }
 
-.intro video {
+  body {
+    font-family: sans-serif;
+  }
+
+  .intro {
+    height: 100vh;
+  }
+
+  .intro video {
     height: 100%;
     width: 100%;
     object-fit: cover;
-}
+  }
 
-.intro h1 {
+  .intro h1 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 80px;
     color: white;
-}
+  }
 
-section {
-    height:100vh;
+  section {
+    height: 100vh;
     color: black;
-}
+  }
 
-section h1 {
+  section h1 {
     padding-top: 300px;
     text-align: center;
     font-size: 80px;
-
-}
+  }
