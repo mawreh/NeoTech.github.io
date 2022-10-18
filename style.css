@@ -6,6 +6,7 @@
 
 body {
   font-family: sans-serif;
+  font: bold;
 }
 
 .intro {
@@ -26,16 +27,16 @@ body {
   font-size: 80px;
   color: white;
 }
-
+/* Ai info page */
 section {
   height: 100vh;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 section h1 {
   font-family: sans-serif;
   position: absolute;
-  padding-top: 250px;
+  padding-top: 18%;
   padding-left: 40px;
   padding-right: 60%;
   text-align: left;
@@ -43,12 +44,124 @@ section h1 {
 }
 
 section img{
-
-  height: 80vh;
+  height: 90vh;
   width: 60vw;
-  object-fit: contain;
-  padding-top: 200px;
-  float: inline-end;
+  padding-top: 15%;
+  position:relative;
+  bottom: 80px;
+  float:right;
+}
+
+/*recycle page*/
+.third{
+background-color: rgb(255, 255, 255);
+height: 100vh;
+width: 100vw;
+}
+
+.third img{
+width: 100vw;
+height: 100vh;
+object-fit: contain;
+position: relative;
+bottom: 217px;
+border-right: 1px;
+}
+
+.third h4{
+font-family: sans-serif;
+  position: absolute;
+  text-align: start;
+  padding-top: 20%;
+  padding-right: 5%;
+  padding-left: 5%;
+  font-size: 18px;
 
 }
 
+
+.sub2{
+height: 30vh;
+width: 20vw;
+position:relative;
+top: 65%;
+left: 5%;
+}
+
+.sub3{
+height: 30vh;
+width: 20vw;
+position:relative;
+top:35%;
+left: 37.5%;
+}
+
+.sub4{
+height: 30vh;
+width: 20vw;
+position:relative;
+top: 5%;
+left: 70%;
+}
+
+/* tab class*/
+
+nav {
+overflow: hidden;
+box-sizing: border-box;
+background: rgba(25, 25, 25, 0.833);
+width: 100%;
+padding: 1%;
+position: fixed;
+top: 0;
+}
+
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+text-align: end;
+}
+
+nav ul li {
+font-size: 1em;
+margin: 0;
+height: 100%;
+width: 7%;
+display: inline-block;
+color: white;
+}
+.home{
+position: relative;
+height: 100%;
+width: 40%;
+left:-75%;
+}
+
+.buy{
+position: relative;
+  height: 100%;
+  width: 4%;
+  left: 0%;
+}
+
+.line{
+  position: relative;
+  bottom: 1px;
+  height: 15px;
+}
+/* last page*/
+/* this is the last page containing extra infos */
+.info{
+height:120vh;
+width: 100vw;
+background-color: rgba(233, 233, 233, 0.242);
+color: rgba(99, 99, 99, 0.818);
+font-family: sans-serif;
+}
+
+.info p{
+font-size: 14px;
+width: 80%;
+text-align: start;
+}
