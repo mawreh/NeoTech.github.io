@@ -1,0 +1,22 @@
+/* this is for the buffering page*/
+body {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+
+.load {
+    height: 11vh;
+    width: 6vw;
+    position : absolute;
+    left: 45%;
+    top: 45%;
+  }
+
+.logo{
+    width: 25vw;
+    opacity: 75%;
+    position: absolute;
+    left: 35%;
+
+  }
